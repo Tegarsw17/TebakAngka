@@ -22,7 +22,7 @@ public class TebakBerNilai {
         void input(){
             int angkaTebakan;
 
-            angkaTebakan = (int) (Math.random() * 6);           
+            angkaTebakan = (int) (Math.random() * 101);           
 
             Scanner input = new Scanner(System.in);
             
@@ -64,7 +64,7 @@ public class TebakBerNilai {
             bonus=0;
             hasil=0;
             
-            if (bnyTebakan <= 5)
+            if (bnyTebakan < 5)
                 bonus += 50;
             hasil = (bonus+point);
 
