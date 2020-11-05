@@ -11,11 +11,13 @@ package tebakangka;
  */
 public class MainClass {
     public static void main(String[] args) {
-        //Tebak x = new Tebak();
-        //x.input();
+        //Project_1
+        Tebak x = new Tebak();
+        x.input();
         
-        TebakBerNilai y = new TebakBerNilai();
-        y.input();
-        y.output();
+        //Project_2
+        //TebakBerNilai y = new TebakBerNilai();
+        //y.input();
+        //y.output();
     }
 }
